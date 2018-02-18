@@ -11,11 +11,14 @@ Una vez configurada la app de Dropbox procedemos al desarrollo. Como dato adicio
 # Pasos previos al desarrollo
 
 Crear la APP de dropbox en https://www.dropbox.com/developers
-Insalar python y dropbox en python pip install dropbox
+Instalar python y dropbox en python pip install dropbox
 Cargar usuarios en el archivo input.dat con sus tokens respectivos
 
 # Ejecución
 Se puede ejecutar los siguientes comandos
-python3 chatdtn.py registrar 
-python3 chatdtn.py iniciar <usuario> 
-python3 chatdtn.py borrar <usuario>
+
+-python3 chatdtn.py registrar 
+
+-python3 chatdtn.py iniciar <usuario> 
+
+-python3 chatdtn.py borrar <usuario>
