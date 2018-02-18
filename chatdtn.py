@@ -88,7 +88,7 @@ class TransferData:
         auth_code = input("Pegar aquí el código de autorización y dar enter: ").strip()#copiar el auth para generar un token
         try:
             oauth_result = auth_flow.finish(auth_code)#la api de dropbox genera el token con el auth
-            print("Código ingresado correctamente, el usuario tiene el siguiente token(envíelo al administrador para que le de su nombre de usuario):")#token que genera mendiante la misma api
+            print("Código ingresado correctamente, el usuario tiene el siguiente token(envíelo al administrador para que le ingrese en el archivo input.dat de usuarios y le de su nombre de usuario):")#token que genera mendiante la misma api
             print(oauth_result.access_token)
         except Exception as e:
             print('Error el código ingresado no es correcto vuelva a realizar el proceso')
